@@ -64,7 +64,7 @@ function Withdraw() {
               <>
                 <h5>Withdraw Successful!</h5>
                 <p>New Balance: ${user.balance}</p>
-                <button type="submit" className="btn btn-light" onClick={clearForm}>Make another Deposit</button>
+                <button type="submit" className="btn btn-light" onClick={clearForm}>Make another Withdraw</button>
               </>
           )}
       />
