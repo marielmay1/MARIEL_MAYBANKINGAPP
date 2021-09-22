@@ -28,7 +28,7 @@ function CreateAccount() {
         if (!validEmail) return;
         if (!validPassword) return;
         ctx.users.push({name, email, password, balance: 100});
-        ctx.index = ctx.length - 1
+        ctx.index = ctx.users.length - 1;
         setShow(false);
         $('.toast').toast('show')
     }
@@ -72,5 +72,3 @@ function CreateAccount() {
         />
     )
 }
-
-

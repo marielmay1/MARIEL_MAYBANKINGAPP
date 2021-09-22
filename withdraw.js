@@ -3,7 +3,7 @@ function Withdraw() {
   const [status, setStatus] = React.useState('');
   const [amount, setAmount] = React.useState('');
   const ctx = React.useContext(UserContext);
-  const user = ctx.users[ctx.index]
+  const user = ctx.users[ctx.index];
 
   function validate(field, label) {
     if(isNaN(field)) {
