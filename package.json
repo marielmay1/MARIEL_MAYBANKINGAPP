@@ -1,0 +1,16 @@
+{
+  "name": "Mariel May Banking App",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/MARIEL_MAYBANKINGAPP/index.js",
+  "scripts": {
+    "test": "jest server.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "jest": "^27.4.5"
+  }
+}
